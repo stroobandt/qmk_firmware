@@ -12,8 +12,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LCTL, KC_LGUI, KC_LALT,                            KC_SPC,                             KC_RALT, MO(1),   KC_RCTL,          KC_LEFT, KC_DOWN, KC_RGHT
   ),
   [_FN1] = LAYOUT_68_ansi(
-    KC_PWR,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_BSPC,          KC_MSEL, KC_HOME,
-    KC_WAKE, KC_CALC, KC_WHOM, KC_MAIL, KC_WBAK, _______, _______, KC_UNDO, _______, KC_CPNL, KC_PSCR, KC_BRID, KC_BRIU, KC_WSCH,          KC_MUTE, KC_END,
+    KC_PWR,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______,          KC_MSEL, KC_HOME,
+    KC_SLEP, KC_CALC, KC_WHOM, KC_MAIL, KC_WBAK, _______, _______, KC_UNDO, _______, _______, KC_PSCR, KC_BRID, KC_BRIU, KC_WSCH,          KC_MUTE, KC_END,
     KC_CAPS, KC_AGIN, KC_SLCT, KC_MYCM, KC_WFWD, _______, _______, KC_EJCT, _______, _______, KC_MSEL, KC_APP,           _______,
     _______, KC_UNDO, KC_CUT,  KC_COPY, KC_PSTE, KC_MPRV, KC_MNXT, KC_MUTE, KC_VOLD, KC_VOLU, KC_FIND,                   KC_MPLY,          KC_VOLU,
     _______, KC_APP,  _______,                            KC_MPLY,                            _______, _______, _______,          KC_MRWD, KC_VOLD, KC_MFFD
