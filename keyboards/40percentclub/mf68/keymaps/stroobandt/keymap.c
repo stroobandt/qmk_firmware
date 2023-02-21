@@ -16,6 +16,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_SLEP, KC_CALC, KC_WHOM, KC_MAIL, KC_WBAK, _______, _______, KC_UNDO, _______, _______, KC_PSCR, KC_BRID, KC_BRIU, KC_WSCH,          KC_MUTE, KC_END,
     KC_CAPS, KC_AGIN, KC_SLCT, KC_MYCM, KC_WFWD, _______, _______, KC_EJCT, _______, _______, KC_MSEL, KC_APP,           _______,
     _______, KC_UNDO, KC_CUT,  KC_COPY, KC_PSTE, KC_MPRV, KC_MNXT, KC_MUTE, KC_VOLD, KC_VOLU, KC_FIND,                   KC_MPLY,          KC_VOLU,
-    _______, KC_APP,  _______,                            KC_MPLY,                            _______, _______, _______,          KC_MRWD, KC_VOLD, KC_MFFD
+    KC_WAKE, KC_APP,  _______,                            KC_MPLY,                            _______, _______, _______,          KC_MRWD, KC_VOLD, KC_MFFD
   )
 };
